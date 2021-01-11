@@ -1,0 +1,51 @@
+HW 1 							Kiara Alvarez ksa698
+
+1. Write down your algorithm to solve 4 automated cars come to an intersection at the same time. Who goes first?
+ 	To decide which car proceeds first the cars should communicate and create a random number generator of 1-4 assigning each car a number.
+	The car with the lowest number accelerates and proceeds on its route whether straight ahead or some form of curvature. 
+	Once car 1 has passed, or if 3 minutes have passed (car trouble), the next car with the lowest number can continue until 4 is reached; 
+	if any numbers were skipped (due to car trouble) then the order of lowest to highest is repeated until all 4 cars are gone. 
+ 
+2. Using your SSH client, TACC Portal user account credentials (i.e. username and password), connect to isp.tacc.utexas.edu. 
+According the SSH banner information (i.e. messages that display when you first connect to a server through SSH), what is the web address for the TACC Usage Policies? 
+
+	http://www.tacc.utexas.edu/user-services/usage-policies/ 
+ 
+3. 
+(a) What is the machine name of the Linux server you are logged into through SSH?  [Hint: server hostname]
+	isp02.tacc.utexas.edu
+(b) What command did you use to find that information?
+	hostname
+(c) What reference (i.e. website, book, or other) did you use to find that command?
+	Given in class
+ 
+4. 
+(a) What is the IP address of Linux server you are logged into through SSH?
+	129.114.60.11
+(b) What command did you use to find that information?
+ 	hostname -i
+5. 
+(a) What is the hard disk size of the / mount, of the Linux server you are logged into through SSH?  [Hint: Another name for the / mount is the root filesystem]
+	379M
+(b) What command did you use to find that information?
+ 	id k_sabi48, and df -h (separately)
+6. 
+(a) What is the kernel version of the Linux server you are logged into through SSH?
+	3.10.0-1062.1.1.el7.x86_64
+(b) What command did you use to find that information?
+	uname -r
+7. 
+(a) How long has the Linux server you are logged into through SSH been running?  [Hint: The amount of time the machine has been up?]
+	 16:27:59 up 273 days,  5:53, 80 users,  load average: 3.46, 3.42, 3.35
+	Based on the result above, the time is 273 days (as of 9/8/20)
+(b) What command did you use to find that information?
+ 	uptime
+8. 
+(a) What does the man command do?
+ 	Man is the manual command tool which when followed by another command a page appears explaining the name and use of that specific command.
+	Type: man ls. You would get the user command list of the ls command showing the name, synopsis, and description.
+9. Name two (2) text editors you can use in the command line terminal in Linux.
+	Nano, vi or vim
+10. What does a software compiler do?
+	It translates human readable code into a form that is readable to a computer or CPU, which is known as binary. 
+
